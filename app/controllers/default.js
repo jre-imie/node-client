@@ -7,7 +7,7 @@ router.get('/', function (req, res, next) {
 
 	var datas = '',
 		req   = http.request({
-		host  : 'apirest0',
+		host  : 'localhost',
 		port  : 8001,
 		path  : '/add',
 		method: 'GET',
